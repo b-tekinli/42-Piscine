@@ -23,6 +23,6 @@ void	ft_print_reverse_alphabet(char reverse)
 	while (reverse >= 'a' )
 	{
 		ft_putchar(reverse);
-		reverse --;
+		reverse--;
 	}
 }
