@@ -14,8 +14,8 @@
 
 void	ft_sort_int_tab(int *tab, int size)
 {
-        int		counter;
-        int		swap;
+        int	counter;
+        int	swap;
 
         counter = 0;
         while (counter < size - 1)
