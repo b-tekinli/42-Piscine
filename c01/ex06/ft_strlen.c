@@ -12,14 +12,14 @@
 
 #include <unistd.h>
 
-int		ft_strlen(char *str)
+int	ft_strlen(char *str)
 {
-		int	    y;
+	int	y;
 
-		y = 0;
-		while (str[y] != '\0')
-		{
-				++y;
-		}
-		return (y);
+	y = 0;
+	while (str[y] != '\0')
+	{
+		++y;
+	}
+	return (y);
 }

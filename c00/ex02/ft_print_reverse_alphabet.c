@@ -6,7 +6,7 @@
 /*   By: btekinli <42istanbul.com.tr>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/02 15:37:12 by btekinli          #+#    #+#             */
-/*   Updated: 2021/12/02 15:39:21 by btekinli         ###   ########.tr       */
+/*   Updated: 2021/12/02 15:42:21 by btekinli         ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,6 @@ void	ft_print_reverse_alphabet(char reverse)
 	while (reverse >= 'a' )
 	{
 		ft_putchar(reverse);
-		reverse --;
+		reverse--;
 	}
 }

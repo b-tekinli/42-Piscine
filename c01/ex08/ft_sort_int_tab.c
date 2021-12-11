@@ -10,24 +10,22 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-
 void	ft_sort_int_tab(int *tab, int size)
 {
-        int		counter;
-        int		swap;
+	int		counter;
+	int		swap;
 
-        counter = 0;
-        while (counter < size - 1)
-        {
-            if (tab[counter] > tab[counter + 1])
-            {
-                swap = tab[counter];
-                tab[counter] = tab[counter + 1];
-                tab[counter + 1] = swap;
-                counter = 0;
-            }
-            else
-                counter ++;
-        }
+	counter = 0;
+	while (counter < size - 1)
+	{
+		if (tab[counter] > tab[counter + 1])
+		{
+			swap = tab[counter];
+			tab[counter] = tab[counter + 1];
+			tab[counter + 1] = swap;
+			counter = 0;
+		}
+		else
+			counter++;
+	}
 }
