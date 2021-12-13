@@ -1,6 +1,6 @@
 # 42header
 
-# Kurulum Talimatları
+## Kurulum Talimatları
 
 1) Yeşil code butonuna tıklayınız
 
