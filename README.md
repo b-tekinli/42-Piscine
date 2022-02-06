@@ -232,7 +232,7 @@ Kısaca basit, hantal ya da kendisine verilen görevi yerine getireye çalışan
   
   <summary>:computer: Libft </summary>
 
-Fonksiyonlar <ctype.h> <br />
+### Fonksiyonlar <ctype.h> <br />
 ​
 ft_isalpha - alfabetik bir karakter olup olmadığını kontrol eder. <br />
 ft_isdigit - bir rakamı (0'dan 9'a kadar) kontrol eder. <br />
