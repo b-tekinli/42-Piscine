@@ -7,8 +7,8 @@
 [![BTekinli's 42 stats](https://badge42.herokuapp.com/api/stats/btekinli)](https://profile.intra.42.fr/users/btekinli)
 
 
+
 ## C Havuzu ve Ana Eğitimdeki Projelere Çalışırken Aldığım Notlar
-- [LİNUX ve VİM Komutları C Fonksiyonları](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar#crud-fonksi%CC%87yonlari) <br />
 
 <details>
   
