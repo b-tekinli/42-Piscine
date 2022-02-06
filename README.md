@@ -244,7 +244,7 @@ ft_tolower - char'ı küçük harfe dönüştür. <br />
 ​
 	<br />
 	
-Fonksiyonlar <string.h> <br />
+### Fonksiyonlar <string.h> <br />
 ​
 ft_memset - belleği sabit bir bayt ile doldurun. <br />
 ft_strlen - bir dizenin uzunluğunu hesaplamak. <br />
@@ -263,13 +263,13 @@ ft_strdup - parametre olarak iletilen dize için bir kopya oluşturur. <br />
 ​
 	<br />
 	
-Fonksiyonlar <stdlib.h> <br />
+### Fonksiyonlar <stdlib.h> <br />
 ​
 ft_atoi - bir dizeyi tam sayıya dönüştürmek. <br />
 ft_calloc - belleği ayırır ve bayt değerlerini 0'a ayarlar. <br />
 ​
 	<br />
-Standart olmayan fonksiyonlar <br />
+### Standart olmayan fonksiyonlar <br />
 ​
 ft_substr - bir dizgeden bir alt dizgi döndürür. <br />
 ft_strjoin - iki dizeyi birleştirir. <br />
@@ -284,7 +284,7 @@ ft_putendl_fd - dosya tanıtıcısına bir dize çıktısı alın ve ardından y
 ft_putnbr_fd - bir dosya tanımlayıcısına bir sayı çıktısı. <br />
 ​
 	<br />
-Bağlantılı liste işlevleri. <br />
+### Bağlantılı liste işlevleri. <br />
 ​
 ft_lstnew - yeni bir liste öğesi oluşturur. <br />
 ft_lstadd_front - listenin başına bir eleman ekler. <br />
