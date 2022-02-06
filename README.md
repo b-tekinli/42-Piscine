@@ -284,7 +284,7 @@ ft_putendl_fd - dosya tanıtıcısına bir dize çıktısı alın ve ardından y
 ft_putnbr_fd - bir dosya tanımlayıcısına bir sayı çıktısı. <br />
 ​
 	<br />
-### Bağlantılı liste işlevleri. <br />
+### Bağlantılı Liste İşlevleri <br />
 ​
 ft_lstnew - yeni bir liste öğesi oluşturur. <br />
 ft_lstadd_front - listenin başına bir eleman ekler. <br />
