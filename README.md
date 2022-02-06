@@ -8,7 +8,7 @@
 
 
 
-## C Havuzu ve Ana Eğitimdeki Projelere Çalışırken Aldığım Notlar
+## C Havuzu ve Ana Eğitimdeki (42 Cursus) Projelere Çalışırken Aldığım Notlar
 
 <details>
   
@@ -226,7 +226,7 @@ Kısaca basit, hantal ya da kendisine verilen görevi yerine getireye çalışan
 
 <br />
 
-## ANA EĞİTİM PROJELERİ
+## ANA EĞİTİM PROJELERİ (42-Cursus)
 
 <details>
   
