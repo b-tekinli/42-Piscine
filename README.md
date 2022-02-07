@@ -296,4 +296,4 @@ ft_lstiter - bir listenin her elemanına bir fonksiyon uygular. <br />
 ft_lstmap - bir listenin her elemanına bir fonksiyon uygular. <br />
 
 
-	</details>
+</details>
