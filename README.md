@@ -8,7 +8,7 @@
 
 
 
-## C Havuzu ve Ana Eğitimdeki (42 Cursus) Projelere Çalışırken Aldığım Notlar
+## C-Piscine
 
 <details>
   
