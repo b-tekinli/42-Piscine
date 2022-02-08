@@ -56,11 +56,11 @@ o Parametre belirtme örnek: ls -a bu komut aynı zamanda gizli dosyaları liste
 - -r parametresi : dosya siler ve dizinlerin içindeki dosya ve klasörleri de siler. 
 	**Örnek**: rm -r hafta 1 gibi. Birden fazla dosyayı aynı anda silebiliriz.
 - cp : dosyaları kopyalamızı sağlar. Örnek: cp ders gibi.
-- Kopyalamak istediğimiz dosyayı başka klasörlere de kopyalayabiliriz.
+  Kopyalamak istediğimiz dosyayı başka klasörlere de kopyalayabiliriz.
 	Örnek: cp kopyalanacakDosya kopyalanacakDosyaDizini/ 
 		cd kopyalanacakDosyaDizini/
-- ls -l
-- Bir üst dizine de kopyalayabiliriz.
+  ls -l
+  Bir üst dizine de kopyalayabiliriz.
 	<br />
 	
 	Örnek: cp kopyalanacakDosya ../
