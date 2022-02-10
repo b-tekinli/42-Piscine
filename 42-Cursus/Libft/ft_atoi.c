@@ -35,3 +35,16 @@ int	ft_atoi(const char *str)
 	}
 	return (res);
 }
+
+/*
+int main(void)
+{
+	char *str;
+	int p;
+
+	str = "-2147483648";
+	p = ft_atoi(str);
+	printf("%d", p);
+	return (0);
+}
+*/
