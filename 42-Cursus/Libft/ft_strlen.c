@@ -21,3 +21,18 @@ size_t	ft_strlen(const char *c)
 		a++;
 	return (a);
 }
+
+/*
+#include <stdio.h>
+#include <string.h>
+int main(void) {
+	const char *comp = "beyza";
+	int b;
+
+	b = ft_strlen(comp);
+
+	printf("%s karakter dizisinin uzunluğu: %d\n", comp, b);
+
+	return (0);
+}
+*/

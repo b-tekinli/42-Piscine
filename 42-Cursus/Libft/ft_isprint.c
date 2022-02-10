@@ -16,3 +16,16 @@ int	ft_isprint(int c)
 		return (1);
 	return (0);
 }
+/*
+#include <stdio.h>
+#include <ctype.h>
+
+int main(void) {
+    char c1 = 'H', c2 = '\t';
+
+    printf("H yazdırılabilir bir karakter%s\n", isprint(c1) ? "dir!" : " değildir!");
+    printf("\\t yazdırılabilir bir karakter%s", isprint(c2) ? "dir!" : " değildir!");
+
+    return 0;
+}
+*/

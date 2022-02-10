@@ -22,3 +22,20 @@ char	*ft_strrchr(const char *src, int c)
 		src--;
 	return ((char *)src);
 }
+/*
+#include <stdio.h>
+#include <string.h>
+
+int main( void )
+{
+    const char dizi[] = "Bilgisayar";
+    char cd = 'i';
+    char *ret;
+
+    ret = strrchr(dizi, cd);
+
+    printf("Bulunan son %c karakterinden itibaren dizi içeriği: %s", cd, ret);
+
+    return 0;
+}
+*/

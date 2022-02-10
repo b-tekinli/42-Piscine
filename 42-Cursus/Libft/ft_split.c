@@ -6,7 +6,7 @@
 /*   By: btekinli <btekinli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/09 16:33:40 by btekinli          #+#    #+#             */
-/*   Updated: 2022/01/10 17:53:22 by btekinli         ###   ########.fr       */
+/*   Updated: 2022/02/10 15:22:06 by btekinli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -79,4 +79,3 @@ char	**ft_split(char const *s, char c)
 	buff[i] = 0;
 	return (buff);
 }
-

@@ -16,3 +16,16 @@ int	ft_toupper(int c)
 		c = c - 32;
 	return (c);
 }
+/*
+#include <stdio.h>
+#include <ctype.h>
+
+int main(void) {
+    char c1 = 'a', c2 = 'b';
+
+    printf("%c %c\n", c1, toupper(c1));
+    printf("%c %c", c2, toupper(c2));
+
+    return 0;
+}
+*/

@@ -16,3 +16,18 @@ int	ft_isalnum(int c)
 		return (1);
 	return (0);
 }
+
+/*
+#include <stdio.h>
+#include <ctype.h>
+
+int main(void) {
+    char c1 = 'B', c2 = '7', c3 = '&';
+
+    printf("%c alfanumerik bir karakter%s\n", c1, isalnum(c1) ? "dir!" : " değildir!");
+    printf("%c alfanumerik bir karakter%s\n", c2, isalnum(c2) ? "dir!" : " değildir!");
+    printf("%c alfanumerik bir karakter%s", c3, isalnum(c3) ? "dir!" : " değildir!");
+
+    return 0;
+}
+*/

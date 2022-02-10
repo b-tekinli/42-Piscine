@@ -6,7 +6,7 @@
 /*   By: btekinli <btekinli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/09 16:21:54 by btekinli          #+#    #+#             */
-/*   Updated: 2022/01/13 11:24:28 by btekinli         ###   ########.fr       */
+/*   Updated: 2022/02/10 14:54:59 by btekinli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,4 +19,5 @@ void	ft_bzero(void *s, size_t n)
 }
 /*
 ft_memset(s, '\0', n);
+// bir bayt dizesini sıfırlayın.
 */

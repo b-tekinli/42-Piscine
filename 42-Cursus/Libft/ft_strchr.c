@@ -23,7 +23,7 @@ char	*ft_strchr(const char *s, int c)
 	else
 		return (0);
 }
-/*har	*ft_strchr(const char *s, int c)
+/*char	*ft_strchr(const char *s, int c)
 {
 	int		i;
 
@@ -38,3 +38,19 @@ char	*ft_strchr(const char *s, int c)
 		return ((char *)&s[i]);
 	return (0);
 }*/
+/*
+#include <stdio.h>
+#include <string.h>
+
+int main(void)
+{
+    const char dizi[] = "Bilgisayar";
+    char *ret;
+
+    ret = strchr(dizi, 's');
+
+    printf("Bulunan karakterden itibaren dizi içeriği: %s", ret);
+
+    return 0;
+}
+*/

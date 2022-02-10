@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdio.h>
 
 void	*ft_calloc(size_t count, size_t size)
 {
@@ -28,3 +29,17 @@ void	*ft_calloc(size_t count, size_t size)
 	}
 	return (memory);
 }
+/*
+// belleği ayırır ve bayt değerlerini 0 ile doldurur.
+int main(void)
+{
+    int *a;
+    int  b;
+    a = (int *) ft_calloc(10, sizeof(int));
+    for (b=0; b<10; b++) {
+        *(a+b) = (b+1) * 5;
+        printf("%p adresindeki değer: %d\n", (a+b), *(a+b));
+    }
+    free(a);
+}
+*/

@@ -16,3 +16,17 @@ int	ft_isalpha(int c)
 		return (1);
 	return (0);
 }
+
+/*
+#include <stdio.h>
+#include <ctype.h>
+
+int main(void) {
+    char c1 = 'h', c2 = '4';
+
+    printf("%c alfabetik bir karakter%s\n", c1, isalpha(c1) ? "dir!" : " değildir!");
+    printf("%c alfabetik bir karakter%s\n", c2, isalpha(c2) ? "dir!" : " değildir!");
+
+    return 0;
+}
+*/

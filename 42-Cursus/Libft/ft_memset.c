@@ -24,3 +24,17 @@ void	*ft_memset(void *b, int c, size_t len)
 	}
 	return (b);
 }
+
+/*
+#include <stdio.h>
+int main(){
+	char dizi[] = "bilgisayar";	
+    printf("dizi bellek içeriği: %s\n", dizi);
+
+    ft_memset(dizi, 'x', 5);
+
+	printf("dizi bellek içeriği: %s", dizi);
+
+	return 0;
+}
+*/
