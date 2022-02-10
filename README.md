@@ -233,7 +233,7 @@ Kısaca basit, hantal ya da kendisine verilen görevi yerine getireye çalışan
   <summary>:computer: Libft </summary>
 
 ### Fonksiyonlar <ctype.h> <br /> 
-➡️ Karakterleri türlerine göre sınıflandırmak veya büyük ve küçük harflere çevirmek için kullanılan fonksiyonları içerir. <br />
+➡️ Karakterleri türlerine göre sınıflandırmak veya büyük ve küçük harflere çevirmek için kullanılan fonksiyonları içerir. <br /> <br />
 ​
 ft_isalpha - alfabetik bir karakter olup olmadığını kontrol eder. <br />
 ft_isdigit - bir rakamı (0'dan 9'a kadar) kontrol eder. <br />
@@ -246,7 +246,7 @@ ft_tolower - char'ı küçük harfe dönüştür. <br />
 	<br />
 	
 ### Fonksiyonlar <string.h> <br /> 
-➡️ Karakter dizisi fonksiyonları içerir. <br />
+➡️ Karakter dizisi fonksiyonları içerir. <br /> <br />
 ​
 ft_memset - belleği sabit bir bayt ile doldurun. <br />
 ft_strlen - bir dizenin uzunluğunu hesaplamak. <br />
@@ -266,7 +266,7 @@ ft_strdup - parametre olarak iletilen dize için bir kopya oluşturur. <br />
 	<br />
 	
 ### Fonksiyonlar <stdlib.h> <br />
-➡️ Sayısal dönüşüm, rastgele sayı üretme, bellek ayırma ve process kontrol fonksiyonları içerir. <br />
+➡️ Sayısal dönüşüm, rastgele sayı üretme, bellek ayırma ve process kontrol fonksiyonları içerir. <br /> <br />
 ​
 ft_atoi - bir dizeyi tam sayıya dönüştürmek. <br />
 ft_calloc - belleği ayırır ve bayt değerlerini 0'a ayarlar. <br />
