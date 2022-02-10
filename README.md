@@ -1,4 +1,4 @@
-# 42-Piscine
+# 42
 <br />
 
 
@@ -8,7 +8,7 @@
 
 
 
-## C Havuzu ve Ana Eğitimdeki (42 Cursus) Projelere Çalışırken Aldığım Notlar
+## C-Piscine
 
 <details>
   
@@ -56,11 +56,11 @@ o Parametre belirtme örnek: ls -a bu komut aynı zamanda gizli dosyaları liste
 - -r parametresi : dosya siler ve dizinlerin içindeki dosya ve klasörleri de siler. 
 	**Örnek**: rm -r hafta 1 gibi. Birden fazla dosyayı aynı anda silebiliriz.
 - cp : dosyaları kopyalamızı sağlar. Örnek: cp ders gibi.
-- Kopyalamak istediğimiz dosyayı başka klasörlere de kopyalayabiliriz.
+  Kopyalamak istediğimiz dosyayı başka klasörlere de kopyalayabiliriz.
 	Örnek: cp kopyalanacakDosya kopyalanacakDosyaDizini/ 
 		cd kopyalanacakDosyaDizini/
-- ls -l
-- Bir üst dizine de kopyalayabiliriz.
+  ls -l
+  Bir üst dizine de kopyalayabiliriz.
 	<br />
 	
 	Örnek: cp kopyalanacakDosya ../
@@ -232,7 +232,8 @@ Kısaca basit, hantal ya da kendisine verilen görevi yerine getireye çalışan
   
   <summary>:computer: Libft </summary>
 
-### Fonksiyonlar <ctype.h> <br />
+### Fonksiyonlar <ctype.h> <br /> 
+➡️ Karakterleri türlerine göre sınıflandırmak veya büyük ve küçük harflere çevirmek için kullanılan fonksiyonları içerir. <br /> <br />
 ​
 ft_isalpha - alfabetik bir karakter olup olmadığını kontrol eder. <br />
 ft_isdigit - bir rakamı (0'dan 9'a kadar) kontrol eder. <br />
@@ -244,7 +245,8 @@ ft_tolower - char'ı küçük harfe dönüştür. <br />
 ​
 	<br />
 	
-### Fonksiyonlar <string.h> <br />
+### Fonksiyonlar <string.h> <br /> 
+➡️ Karakter dizisi fonksiyonları içerir. <br /> <br />
 ​
 ft_memset - belleği sabit bir bayt ile doldurun. <br />
 ft_strlen - bir dizenin uzunluğunu hesaplamak. <br />
@@ -264,6 +266,7 @@ ft_strdup - parametre olarak iletilen dize için bir kopya oluşturur. <br />
 	<br />
 	
 ### Fonksiyonlar <stdlib.h> <br />
+➡️ Sayısal dönüşüm, rastgele sayı üretme, bellek ayırma ve process kontrol fonksiyonları içerir. <br /> <br />
 ​
 ft_atoi - bir dizeyi tam sayıya dönüştürmek. <br />
 ft_calloc - belleği ayırır ve bayt değerlerini 0'a ayarlar. <br />
@@ -296,4 +299,4 @@ ft_lstiter - bir listenin her elemanına bir fonksiyon uygular. <br />
 ft_lstmap - bir listenin her elemanına bir fonksiyon uygular. <br />
 
 
-	</details>
+</details>
