@@ -268,8 +268,8 @@ ft_strdup - parametre olarak iletilen dize için bir kopya oluşturur. <br />
 ### Fonksiyonlar <stdlib.h> <br />
 ➡️ Sayısal dönüşüm, rastgele sayı üretme, bellek ayırma ve process kontrol fonksiyonları içerir. <br /> <br />
 ​
-ft_atoi - bir dizeyi tam sayıya dönüştürmek. <br />
-ft_calloc - belleği ayırır ve bayt değerlerini 0'a ayarlar. <br />
+ft_atoi - string olarak verilen sayıyı int tipine çevirir. <br />
+ft_calloc - belleği ayırır ve bayt değerlerini 0 ile doldurur. <br />
 ​
 	<br />
 ### Standart olmayan fonksiyonlar <br />
