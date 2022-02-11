@@ -221,7 +221,7 @@ Kullanılabilir komutlar : <br />
 
 2. atof Fonksiyonu: Karakter dizisi olarak verilen ifadeyi ondalıklı sayıya çevirir.
 	
-<hr> <br />
+<br /> <hr> <br />
 
 - unsigned int ➡️ Tüm integer alanlar için kullanılan bir özelliktir. Sayısal alanlar için belirlenmiş uzunlukları vardır. Eğer integer alanı unsigned olarak belirlerseniz, ilgili alan negatif değer alamayacaktır.
 
