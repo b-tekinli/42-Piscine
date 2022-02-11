@@ -142,12 +142,10 @@ Kullanılabilir komutlar : <br />
 	
 ## 42-Piscine C Fonksiyonları
 
-Temel Veri Tipleri Özet
+### Temel Veri Tipleri Özet
 
 
-SHORT-LONG-LONG LONG-UNSIGNED KAVRAMLARI
-
-Öncelikle 4 temel veri tipine ek olarak bazı kavramlar öğrenmiştik, bunların açıklamaları sırasıyla;
+### SHORT-LONG-LONG LONG-UNSIGNED KAVRAMLARI
 
 1. short: Değişkeni short ile tanımladığımızda hafızada daha az yer kaplayacaktır ancak short ile tanımladığımız değişkenlerin değer aralığı da daha az olacaktır. Sadece değer aralığı düşük olan sayılarda kullanılabilir.
 
@@ -159,9 +157,7 @@ SHORT-LONG-LONG LONG-UNSIGNED KAVRAMLARI
 
 
 
-FLOAT VE DOUBLE VERİ TİPLERİ ARASINDAKİ FARKLAR
-
-Ardından float ve double veri tipi arasındaki farkları inceledik, farkları şu şekilde;
+### FLOAT VE DOUBLE VERİ TİPLERİ ARASINDAKİ FARKLAR
 
 1. Float: Hafızada 32 bit yer kaplamaktadır, double veri tipine göre daha az yer kaplamasına rağmen virgül hassasiyeti daha düşüktür. Yani virgül hassasiyeti daha az olan sayılarda kullanılabilir.
 
@@ -169,17 +165,13 @@ Ardından float ve double veri tipi arasındaki farkları inceledik, farkları �
 
 
 
-SIZEOF FONKSİYONU
-
-Ardından sizeof fonksiyonunu ve ne için kullanıldığını öğrendik, sizeof fonksiyonunun görevi şu şekilde;
+### SIZEOF FONKSİYONU
 
 İçerisine verdiğimiz değişkenin, hafızada kaç byte yer kapladığını bize sunuyor.
 
 
 
-HEXADECIMAL VE OCTAL SAYI TABANLARI
-
-Ardından 10'luk (decimal) taban dışındaki sayı tabanlarını öğrendik, diğer sayı tabanları şu şekilde;
+### HEXADECIMAL VE OCTAL SAYI TABANLARI
 
 1. Hexadecimal: Değer aralığı 0-9 ve A-F arasında değişiyor. Yani 9 değerinden sonra 10 değil de A değeri geliyor. Tüm hexadecimal değerleri şu şekilde; 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
 
@@ -187,9 +179,7 @@ Ardından 10'luk (decimal) taban dışındaki sayı tabanlarını öğrendik, di
 
 
 
-PRINTF FONKSİYONUNDA KULLANILAN BAZI KARAKTERLER
-
-Ardından printf fonksiyonunda kullanılan bazı karakterleri öğrenmiştik, bu karakterler ve açıklamaları şu şekilde;
+### PRINTF FONKSİYONUNDA KULLANILAN BAZI KARAKTERLER
 
 1. \n karakteri: Bir alt satıra geçmek için kullanılır. Kullanıldığında bir sonraki satırdan yazılmaya devam edilir.
 
@@ -207,9 +197,7 @@ Ardından printf fonksiyonunda kullanılan bazı karakterleri öğrenmiştik, bu
 
 
 
-CHAR VERİ TİPİ HAZIR FONKSİYONLAR
-
-Ardından char veri tipi için kullandığımız bazı hazır fonksiyonları öğrenmiştik, bu fonksiyonlar ve açıklamaları şu şekilde;
+### CHAR VERİ TİPİ HAZIR FONKSİYONLAR
 
 1. isalpha Fonksiyonu: Fonksiyon içerisine verilen karakterin alfabetik bir değer olup olmadığı sonucunu verir. Eğer ki verilen karakter alfabetik değilse 0 sonucu verir, aksi halde 0'dan farklı sonuç verir. Bir değerin alfabetik olabilmesi için A-Z veya a-z arasında olması gerekmektedir.
 
@@ -227,9 +215,7 @@ Ardından char veri tipi için kullandığımız bazı hazır fonksiyonları ö�
 
 
 
-ATOI VE ATOF FONKSİYONLARI
-
-Son olarak atoi ve atof fonksiyonlarını öğrendik, bu fonksiyonlar ve açıklamaları şu şekilde;
+### ATOI VE ATOF FONKSİYONLARI
 
 1. atoi Fonksiyonu: Karakter dizisi olarak verilen ifadeyi tam sayıya çevirir.
 
