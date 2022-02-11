@@ -12,7 +12,7 @@
 
 <details>
   
-  <summary>:computer: LINUX VE VIM || C Fonksiyonları </summary>
+  <summary>:computer: LINUX VE VIM </summary>
   
 ## [LİNUX ve VİM Komutları]()
 ### LİNUX KOMUTLARI <br />
@@ -133,9 +133,107 @@ Kullanılabilir komutlar : <br />
 :arrow_right: :mkvimrc dosyaismi > set vb yapılan ayarların saklanmasını sağlar. <br />
 :arrow_right: :source dosyaismi > kaydedilen ayarları çağırır. <br />
 	
+</details>
+
+
+<details>
+  
+  <summary>:computer: C Fonksiyonları </summary>
 	
-	
-# 42-Piscine C Fonksiyonları
+## 42-Piscine C Fonksiyonları
+
+Temel Veri Tipleri Özet
+
+
+SHORT-LONG-LONG LONG-UNSIGNED KAVRAMLARI
+
+Öncelikle 4 temel veri tipine ek olarak bazı kavramlar öğrenmiştik, bunların açıklamaları sırasıyla;
+
+1. short: Değişkeni short ile tanımladığımızda hafızada daha az yer kaplayacaktır ancak short ile tanımladığımız değişkenlerin değer aralığı da daha az olacaktır. Sadece değer aralığı düşük olan sayılarda kullanılabilir.
+
+2. long: Değişkeni long ile tanımladığımızda hafızada daha fazla yer kaplayacaktır ancak long ile tanımladığımız değişkenlerin değer aralığı da daha fazla olacaktır. Sadece değer aralığı yüksek olan sayılarda kullanılabilir.
+
+3. long long: Değişkeni long long ile tanımladığımızda hafızada daha fazla yer kaplayacaktır ancak long long ile tanımladığımız değişkenlerin değer aralığı da çok daha fazla olacaktır. Sadece değer aralığı çok yüksek olan sayılarda kullanılabilir.
+
+4. unsigned: Değişkeni unsigned ile tanımladığımızda hafızada aynı düzeyde yer kaplayacaktır ancak değer aralığı 0'dan başlayacaktır. Sadece pozitif sayıları saklayacağımız durumlarda kullanılabilir.
+
+
+
+FLOAT VE DOUBLE VERİ TİPLERİ ARASINDAKİ FARKLAR
+
+Ardından float ve double veri tipi arasındaki farkları inceledik, farkları şu şekilde;
+
+1. Float: Hafızada 32 bit yer kaplamaktadır, double veri tipine göre daha az yer kaplamasına rağmen virgül hassasiyeti daha düşüktür. Yani virgül hassasiyeti daha az olan sayılarda kullanılabilir.
+
+2. Double: Hafızada 64 bit yer kaplamaktadır, float veri tipine göre daha fazla yer kaplamasına rağmen virgül hassasiyeti daha yüksektir. Yani virgül hassasiyeti daha fazla olan sayılarda kullanılabilir.
+
+
+
+SIZEOF FONKSİYONU
+
+Ardından sizeof fonksiyonunu ve ne için kullanıldığını öğrendik, sizeof fonksiyonunun görevi şu şekilde;
+
+İçerisine verdiğimiz değişkenin, hafızada kaç byte yer kapladığını bize sunuyor.
+
+
+
+HEXADECIMAL VE OCTAL SAYI TABANLARI
+
+Ardından 10'luk (decimal) taban dışındaki sayı tabanlarını öğrendik, diğer sayı tabanları şu şekilde;
+
+1. Hexadecimal: Değer aralığı 0-9 ve A-F arasında değişiyor. Yani 9 değerinden sonra 10 değil de A değeri geliyor. Tüm hexadecimal değerleri şu şekilde; 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
+
+2. Octal: Değer aralığı 0-7 arasında değişiyor. Tüm octal değerleri şu şekilde; 0,1,2,3,4,5,6,7
+
+
+
+PRINTF FONKSİYONUNDA KULLANILAN BAZI KARAKTERLER
+
+Ardından printf fonksiyonunda kullanılan bazı karakterleri öğrenmiştik, bu karakterler ve açıklamaları şu şekilde;
+
+1. \n karakteri: Bir alt satıra geçmek için kullanılır. Kullanıldığında bir sonraki satırdan yazılmaya devam edilir.
+
+2. \t karakteri: Bir tab boşluğu kadar sağa geçmek için kullanılır. Kullanıldığında bir tab boşluğu sağdan yazılmaya devam edilir.
+
+3. \b karakteri: Klavyedeki backspace(silme) tuşunun karşılığıdır. Kullanıldığında bir kere backspace(silme) tuşuna basılmış gibi olur.
+
+4. ' karakteri: Çift tırnak ile başladığımız ifadenin içerisinde tırnak işareti yazmak için kullanılır.
+
+5. \\ karakteri: \ ifadesini yazabilmek için kullanılır. Tek bir tane \ kullanırsak eğer program hata verecektir, bu yüzden \ yazmak istediğimizde 2 tane \ ifadesi kullanırız.
+
+6. \" karakteri: " ifadesini yazabilmek için kullanılır. Çift tırnak ile başladığımız ifadenin içerisinde direkt olarak " kullanırsak eğer program hata verecektir, bu yüzden " yazmak istediğimizde \" şeklinde kullanırız.
+
+7. %% karakteri: % ifadesini yazabilmek için kullanılır. Çift tırnak ile başladığımız ifadenin içerisinde direkt olarak % kullanırsak eğer program hata verecektir, bu yüzden % yazmak istediğimizde %% şeklinde kullanırız.
+
+
+
+CHAR VERİ TİPİ HAZIR FONKSİYONLAR
+
+Ardından char veri tipi için kullandığımız bazı hazır fonksiyonları öğrenmiştik, bu fonksiyonlar ve açıklamaları şu şekilde;
+
+1. isalpha Fonksiyonu: Fonksiyon içerisine verilen karakterin alfabetik bir değer olup olmadığı sonucunu verir. Eğer ki verilen karakter alfabetik değilse 0 sonucu verir, aksi halde 0'dan farklı sonuç verir. Bir değerin alfabetik olabilmesi için A-Z veya a-z arasında olması gerekmektedir.
+
+2. isdigit Fonksiyonu: Fonksiyon içerisine verilen karakterin rakam olup olmadığı sonucunu verir. Eğer ki verilen karakter rakam değil ise 0 sonucu aksi halde 1 sonucu verir. Bir değerin rakam olabilmesi için 0-9 arasında olması gerekmektedir.
+
+3. isalnum Fonksiyonu: Fonksiyon içerisine verilen karakterin alfanümerik bir değer olup olmadığı sonucunu verir. Eğer ki verilen karakter alfanümerik değilse 0 sonucu verir, aksi halde 1 sonucu verir. Bir değerin alfanümerik olabilmesi için ya alfabetik(A-Z veya a-z arasında) ya da rakam(0-9 arasında) olması gerekmektedir.
+
+4 islower Fonksiyonu: Fonksiyon içerisine verilen karakterin küçük harf olup olmadığını sorgular. Eğer ki verilen karakter küçük harf değilse 0 sonucu verir, aksi halde 1 sonucu verir.
+
+5. isupper Fonksiyonu: Fonksiyon içerisine verilen karakterin büyük harf olup olmadığını sorgular. Eğer ki verilen karakter büyük harf değilse 0 sonucu verir, aksi halde 1 sonucu verir.
+
+6. tolower Fonksiyonu: Fonksiyon içerisine verilen karakteri küçük harfe çevirir.
+
+7. toupper Fonksiyonu: Fonksiyon içerisine verilen karakteri büyük harfe çevirir.
+
+
+
+ATOI VE ATOF FONKSİYONLARI
+
+Son olarak atoi ve atof fonksiyonlarını öğrendik, bu fonksiyonlar ve açıklamaları şu şekilde;
+
+1. atoi Fonksiyonu: Karakter dizisi olarak verilen ifadeyi tam sayıya çevirir.
+
+2. atof Fonksiyonu: Karakter dizisi olarak verilen ifadeyi ondalıklı sayıya çevirir.
 
 - unsigned int ➡️ Tüm integer alanlar için kullanılan bir özelliktir. Sayısal alanlar için belirlenmiş uzunlukları vardır. Eğer integer alanı unsigned olarak belirlerseniz, ilgili alan negatif değer alamayacaktır.
 
