@@ -220,6 +220,8 @@ Kullanılabilir komutlar : <br />
 1. atoi Fonksiyonu: Karakter dizisi olarak verilen ifadeyi tam sayıya çevirir.
 
 2. atof Fonksiyonu: Karakter dizisi olarak verilen ifadeyi ondalıklı sayıya çevirir.
+	
+<hr> <br />
 
 - unsigned int ➡️ Tüm integer alanlar için kullanılan bir özelliktir. Sayısal alanlar için belirlenmiş uzunlukları vardır. Eğer integer alanı unsigned olarak belirlerseniz, ilgili alan negatif değer alamayacaktır.
 
