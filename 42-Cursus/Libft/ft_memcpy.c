@@ -26,6 +26,7 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 	}
 	return (dst);
 }
+// Veri tasarruflu kopyalama yapar.
 /*
 #include <stdio.h>
 #include <string.h>
@@ -36,12 +37,12 @@ int main(void)
     const char *cp = "Bilgisayar&Programlama";
     char dest[40];
 
-    ft_memset(dest, '\0', 40);
+    ft_memset(dest, '1', 40);
     ft_memcpy(dest, cp, 40);
     printf("%s\n", dest);
 
-    ft_memset(dest, '\0', 40);
-    ft_memccpy(dest, cp, '&', 40);
+    ft_memset(dest, '1', 40);
+    ft_memcpy(dest, cp, 40);
     printf("%s", dest);
 
     return 0;

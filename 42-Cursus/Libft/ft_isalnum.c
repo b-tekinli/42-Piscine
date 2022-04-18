@@ -16,3 +16,4 @@ int	ft_isalnum(int c)
 		return (1);
 	return (0);
 }
+// harf mi sayı mı diye kontrol ediyor

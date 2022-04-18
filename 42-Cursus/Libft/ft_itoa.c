@@ -39,15 +39,16 @@ char	*ft_itoa(int n)
 		*(--r) = '-';
 	return (r);
 }
+
+
+/*
+c dilinde bir integer'ı ascii'ye çeviren fonksiyon. 
+stdlib.h'ta vardır visual c'de.
+*/
 /*
 #include <stdio.h>
-int main()
-{
-	char str[100];
-	printf("Base: 10 - %s\n", itoa(1567, str, 10));
-	printf("Base: 10 - %s\n", itoa(-1567, str, 10));
-	printf("Base: 2 - %s\n", itoa(1567, str, 2));
-	printf("Base: 8 - %s\n", itoa(1567, str, 8));
-	printf("Base: 16 - %s", itoa(1567, str, 16));
+int main() {
+	char arr[100];
+	printf("Taban: 16, Değer: %s", itoa(1567, arr, 16));
 }
 */

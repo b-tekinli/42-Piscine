@@ -12,9 +12,9 @@
 
 #include "libft.h"
 
-void	*ft_memset(void *b, int c, size_t len)
+void *ft_memset(void *b, int c, size_t len)
 {
-	size_t	i;
+	size_t i;
 
 	i = 0;
 	while (i < len)
@@ -24,16 +24,16 @@ void	*ft_memset(void *b, int c, size_t len)
 	}
 	return (b);
 }
-
+// bellekte istediğimiz kadar alanı sabit bayt ile doldurur.
 /*
 #include <stdio.h>
-int main(){
-	char dizi[] = "bilgisayar";	
-    printf("dizi bellek içeriği: %s\n", dizi);
 
-    ft_memset(dizi, 'x', 5);
+int main() {
 
-	printf("dizi bellek içeriği: %s", dizi);
+	char arr[] = "kirkiki";
+	ft_memset(arr, 'x', 3);
+
+	printf("%s", arr);
 
 	return 0;
 }

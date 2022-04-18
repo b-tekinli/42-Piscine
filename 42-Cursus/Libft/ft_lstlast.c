@@ -22,3 +22,4 @@ t_list	*ft_lstlast(t_list *lst)
 	}
 	return (lst);
 }
+// Linked Listenin sonuncu elemanını döndürür.

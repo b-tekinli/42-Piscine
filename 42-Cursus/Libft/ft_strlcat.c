@@ -34,3 +34,4 @@ size_t	ft_strlcat(char *dest, const char *src, size_t size)
 		dest[dsize] = '\0';
 	return (i + ft_strlen(src));
 }
+// İki dizeyi birleştiriyor.

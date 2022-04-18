@@ -11,7 +11,6 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
 
 void	*ft_memmove(void *dst, const void *src, size_t len)
 {
@@ -30,12 +29,15 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 			*d++ = *s++;
 	return (dst);
 }
+// hafıza alanının istediğimiz kadarını kopyalar.
 /*
+#include <stdio.h>
+
 int main()
 {
 	char str[] = "beyza";
 
-	char *s = ft_memmove(str + 3, str, 4);
+	char *s = ft_memmove(str + 3, str, 2);
 	printf("%s", str);
 }
 */

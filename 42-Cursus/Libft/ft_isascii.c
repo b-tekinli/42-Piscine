@@ -27,3 +27,4 @@ int main(void) {
     return 0;
 }
 */
+// ascii karakteri mi değil mi

@@ -22,3 +22,4 @@ void	ft_lstiter(t_list *lst, void (*f)(void *))
 		lst = lst->next;
 	}
 }
+// Linked Listenin 1 elemanına pointer atar.

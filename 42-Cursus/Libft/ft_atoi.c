@@ -38,24 +38,24 @@ int	ft_atoi(const char *str)
 		res = (res * 10) + (*str - '0');
 		str++;
 	}
-	res = res * sign;
+	res *= sign;
 	if (res >= -2147483648 && res <= 2147483647)
 		return (res);
 	if (sign == -1)
 		return (0);
 	return (-1);
 }
-
+// stringi integer a çevirir
 /*
 #include <stdio.h>
 int main(void)
 {
-	char *str;
-	int p;
+	char *str = "-123";
+	int c = ft_atoi(str);
 
-	str = "-2147483648";
-	p = ft_atoi(str);
-	printf("%d", p);
+	// str = "-123";
+	// p = ft_atoi(str);
+	printf("%d", c);
 	return (0);
 }
 */

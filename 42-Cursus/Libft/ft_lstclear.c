@@ -25,3 +25,4 @@ void	ft_lstclear(t_list **lst, void (*del)(void *))
 		*lst = tmp;
 	}
 }
+// Linked Listenin 1 elemanını siliyor.

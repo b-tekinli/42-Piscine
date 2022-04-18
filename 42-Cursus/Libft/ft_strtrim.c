@@ -25,3 +25,4 @@ char	*ft_strtrim(char const *s1, char const *set)
 		i--;
 	return (ft_substr(s1, 0, i + 1));
 }
+// belirli karakter kümesiyle dizenin başlangıcını ve sonunu keser.

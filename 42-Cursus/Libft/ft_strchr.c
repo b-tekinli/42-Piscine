@@ -23,6 +23,7 @@ char	*ft_strchr(const char *s, int c)
 	else
 		return (0);
 }
+// Stringin belli karakterinden sonraki kasma alıyor.
 /*char	*ft_strchr(const char *s, int c)
 {
 	int		i;

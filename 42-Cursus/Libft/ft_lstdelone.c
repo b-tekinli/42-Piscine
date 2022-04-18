@@ -20,3 +20,4 @@ void	ft_lstdelone(t_list *lst, void (*del)(void *))
 		del (lst->content);
 	free (lst);
 }
+// Linked Listenin 1 elemanın hücresini boşaltıyor.

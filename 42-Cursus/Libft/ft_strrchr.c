@@ -22,6 +22,7 @@ char	*ft_strrchr(const char *src, int c)
 		src--;
 	return ((char *)src);
 }
+// dizedeki karakteri bulun.
 /*
 #include <stdio.h>
 #include <string.h>

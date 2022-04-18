@@ -22,13 +22,14 @@ void	ft_putendl_fd(char *s, int fd)
 	write(fd, s, ft_strlen(s));
 	write(fd, &nl, 1);
 }
+// Hem uzunluk kadar yazdırır hem de alt satıra geçer.
 /*
 #include <stdio.h>
 int main(){
 
-	char a[] = "beyza vs talha" ;
+	char a[] = "kirk iki";
 
 	ft_putendl_fd(a,2);
-			return 0;
+	return 0;
 }
 */

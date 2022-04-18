@@ -25,12 +25,12 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
+// aranan harfe kadar tarar bulduktan sonra geri kalan stringi yazdırır.
 /*
 #include <stdio.h>
 int main(){
-				//aranan harfe kadar tara bulduktan sonra geri kalan stringi yazdır
 	char a[] = "beyza";
 
 	printf("%s", ft_memchr(a,'y',4));
-			return 0;
+	return 0;
 }*/

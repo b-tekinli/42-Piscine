@@ -16,6 +16,7 @@ int	ft_tolower(int c)
 		c = c + 32;
 	return (c);
 }
+// büyük harfleri küçük harfe çevirir.
 /*
 #include <stdio.h>
 #include <ctype.h>

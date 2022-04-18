@@ -23,3 +23,4 @@ t_list	*ft_lstnew(void *content)
 	c->next = NULL;
 	return (c);
 }
+// Linked Liste yeni eleman ekler.

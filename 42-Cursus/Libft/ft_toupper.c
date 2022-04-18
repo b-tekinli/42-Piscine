@@ -16,6 +16,7 @@ int	ft_toupper(int c)
 		c = c - 32;
 	return (c);
 }
+// küçük harfleri büyük harfe çevirir.
 /*
 #include <stdio.h>
 #include <ctype.h>

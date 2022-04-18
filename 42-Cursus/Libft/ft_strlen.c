@@ -21,7 +21,7 @@ size_t	ft_strlen(const char *c)
 		a++;
 	return (a);
 }
-
+// String uzunluğunu verir.
 /*
 #include <stdio.h>
 #include <string.h>

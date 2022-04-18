@@ -33,3 +33,4 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	str[s2l] = '\0';
 	return (str);
 }
+// Stringleri arka arkaya ekliyor.
